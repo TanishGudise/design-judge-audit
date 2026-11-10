@@ -1,0 +1,767 @@
+{
+ "gde/haiku/J2": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.0167,
+    "ci": [
+     0.0,
+     0.0397
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0083,
+    "p_loser_wins_edit": 0.025
+   },
+   "E3": {
+    "control": "C1",
+    "effect": 0.0167,
+    "ci": [
+     0.0,
+     0.0403
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0083,
+    "p_loser_wins_edit": 0.025
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": 0.025,
+    "ci": [
+     0.0,
+     0.0583
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0083,
+    "p_loser_wins_edit": 0.0333
+   },
+   "E5": {
+    "control": "C1",
+    "effect": 0.0083,
+    "ci": [
+     0.0,
+     0.0259
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0083,
+    "p_loser_wins_edit": 0.0167
+   },
+   "R4": {
+    "control": "C1",
+    "effect": 0.025,
+    "ci": [
+     0.0,
+     0.0517
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0083,
+    "p_loser_wins_edit": 0.0333
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.0583,
+    "ci": [
+     0.0081,
+     0.1228
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true,
+    "p_loser_wins_control": 0.0083,
+    "p_loser_wins_edit": 0.0667
+   },
+   "E4b": {
+    "control": "N0",
+    "effect": 0.0083,
+    "ci": [
+     0.0,
+     0.0259
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0,
+    "p_loser_wins_edit": 0.0083
+   }
+  },
+  "pairs": "clear (pre-registered)"
+ },
+ "gde/haiku/J2close": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.1133,
+    "ci": [
+     0.0432,
+     0.1938
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0299,
+    "beyond_noise": true,
+    "beyond_noise_positive": true,
+    "p_loser_wins_control": 0.3667,
+    "p_loser_wins_edit": 0.48
+   },
+   "E3": {
+    "control": "C1",
+    "effect": 0.1333,
+    "ci": [
+     0.0641,
+     0.2113
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0299,
+    "beyond_noise": true,
+    "beyond_noise_positive": true,
+    "p_loser_wins_control": 0.3667,
+    "p_loser_wins_edit": 0.5
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": -0.0067,
+    "ci": [
+     -0.0833,
+     0.0809
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0299,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.3667,
+    "p_loser_wins_edit": 0.36
+   },
+   "E5": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     -0.0714,
+     0.0758
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0299,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.3667,
+    "p_loser_wins_edit": 0.3667
+   },
+   "R4": {
+    "control": "C1",
+    "effect": -0.0333,
+    "ci": [
+     -0.0987,
+     0.0325
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0299,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.3667,
+    "p_loser_wins_edit": 0.3333
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.2,
+    "ci": [
+     0.1319,
+     0.2688
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.019,
+    "beyond_noise": true,
+    "beyond_noise_positive": true,
+    "p_loser_wins_control": 0.3733,
+    "p_loser_wins_edit": 0.5733
+   },
+   "E4b": {
+    "control": "N0",
+    "effect": -0.1133,
+    "ci": [
+     -0.1974,
+     -0.0338
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0263,
+    "beyond_noise": true,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.4067,
+    "p_loser_wins_edit": 0.2933
+   }
+  },
+  "pairs": "close 55-80% (Amendment A4)"
+ },
+ "vda/haiku/J2": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.0333,
+    "ci": [
+     -0.0117,
+     0.1154
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0357,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.15,
+    "p_loser_wins_edit": 0.1833
+   },
+   "E3": {
+    "control": "C1",
+    "effect": 0.0333,
+    "ci": [
+     -0.0134,
+     0.1058
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0357,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.15,
+    "p_loser_wins_edit": 0.1833
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": -0.0583,
+    "ci": [
+     -0.1518,
+     0.0082
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0357,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.15,
+    "p_loser_wins_edit": 0.0917
+   },
+   "E5": {
+    "control": "C1",
+    "effect": -0.0167,
+    "ci": [
+     -0.1191,
+     0.069
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0357,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.15,
+    "p_loser_wins_edit": 0.1333
+   },
+   "R4": {
+    "control": "C1",
+    "effect": -0.025,
+    "ci": [
+     -0.1111,
+     0.0476
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0357,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.15,
+    "p_loser_wins_edit": 0.125
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.025,
+    "ci": [
+     -0.0671,
+     0.1419
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0441,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.1333,
+    "p_loser_wins_edit": 0.1583
+   },
+   "E4b": {
+    "control": "N0",
+    "effect": -0.0583,
+    "ci": [
+     -0.1727,
+     0.0
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0692,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.1583,
+    "p_loser_wins_edit": 0.1
+   }
+  },
+  "pairs": "clear (pre-registered)"
+ },
+ "gde/-/J0": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.15,
+    "ci": [
+     0.0508,
+     0.2586
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true
+   },
+   "E3": {
+    "control": "C1",
+    "effect": -0.0167,
+    "ci": [
+     -0.125,
+     0.0893
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": -0.0833,
+    "ci": [
+     -0.1746,
+     0.0
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E5": {
+    "control": "C1",
+    "effect": -0.0333,
+    "ci": [
+     -0.125,
+     0.0536
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "R4": {
+    "control": "C1",
+    "effect": 0.05,
+    "ci": [
+     -0.0508,
+     0.1639
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.5667,
+    "ci": [
+     0.4364,
+     0.6964
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true
+   }
+  }
+ },
+ "gde/-/J4": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": -0.0167,
+    "ci": [
+     -0.0517,
+     0.0
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E3": {
+    "control": "C1",
+    "effect": -0.05,
+    "ci": [
+     -0.1111,
+     0.0
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": -0.0167,
+    "ci": [
+     -0.0758,
+     0.0357
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E5": {
+    "control": "C1",
+    "effect": 0.0667,
+    "ci": [
+     0.0167,
+     0.1343
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true
+   },
+   "R4": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     -0.0656,
+     0.0667
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.1167,
+    "ci": [
+     -0.0161,
+     0.2501
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   }
+  }
+ },
+ "gde/-/J0close": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     -0.1169,
+     0.1194
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E3": {
+    "control": "C1",
+    "effect": -0.2,
+    "ci": [
+     -0.3205,
+     -0.0732
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": -0.24,
+    "ci": [
+     -0.3472,
+     -0.1351
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "E5": {
+    "control": "C1",
+    "effect": -0.2533,
+    "ci": [
+     -0.353,
+     -0.1447
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "R4": {
+    "control": "C1",
+    "effect": -0.1067,
+    "ci": [
+     -0.2237,
+     0.0132
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.48,
+    "ci": [
+     0.3623,
+     0.5897
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true
+   }
+  }
+ },
+ "gde/-/J4close": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": -0.2267,
+    "ci": [
+     -0.3377,
+     -0.1304
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "E3": {
+    "control": "C1",
+    "effect": -0.3067,
+    "ci": [
+     -0.4211,
+     -0.2
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": -0.28,
+    "ci": [
+     -0.3939,
+     -0.1765
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "E5": {
+    "control": "C1",
+    "effect": -0.0267,
+    "ci": [
+     -0.1139,
+     0.0564
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "R4": {
+    "control": "C1",
+    "effect": -0.1867,
+    "ci": [
+     -0.2958,
+     -0.0921
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.1467,
+    "ci": [
+     -0.0435,
+     0.3286
+    ],
+    "n_units": 75,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   }
+  }
+ },
+ "vda/-/J0": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": -0.05,
+    "ci": [
+     -0.1695,
+     0.0
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E3": {
+    "control": "C1",
+    "effect": -0.15,
+    "ci": [
+     -0.3415,
+     -0.0161
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": -0.1167,
+    "ci": [
+     -0.277,
+     0.0
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E5": {
+    "control": "C1",
+    "effect": -0.1167,
+    "ci": [
+     -0.277,
+     -0.0111
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": false
+   },
+   "R4": {
+    "control": "C1",
+    "effect": -0.1167,
+    "ci": [
+     -0.2857,
+     0.0
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.3,
+    "ci": [
+     0.1273,
+     0.475
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true
+   }
+  }
+ },
+ "vda/-/J4": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.0167,
+    "ci": [
+     0.0,
+     0.0896
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E3": {
+    "control": "C1",
+    "effect": 0.0333,
+    "ci": [
+     0.0,
+     0.1277
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": 0.0333,
+    "ci": [
+     0.0,
+     0.1277
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E5": {
+    "control": "C1",
+    "effect": 0.1333,
+    "ci": [
+     0.0,
+     0.3044
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "R4": {
+    "control": "C1",
+    "effect": 0.25,
+    "ci": [
+     0.0819,
+     0.44
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.0333,
+    "ci": [
+     0.0,
+     0.1395
+    ],
+    "n_units": 60,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   }
+  }
+ }
+}

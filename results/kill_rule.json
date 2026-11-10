@@ -1,0 +1,27 @@
+{
+ "web_dataset": "vda",
+ "tests_beyond_noise": 4,
+ "detail": {
+  "R1": [
+   "J2 position"
+  ],
+  "R2": [],
+  "R3": [
+   "J1 R3",
+   "J3 R3"
+  ],
+  "R4": [
+   "J3 R4"
+  ],
+  "R5": [],
+  "E1": [],
+  "E2": [],
+  "E3": [],
+  "E4a": [],
+  "E4b": [
+   "J1 E4b"
+  ],
+  "E5": []
+ },
+ "stop_before_cp2": false
+}

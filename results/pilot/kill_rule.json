@@ -1,0 +1,18 @@
+{
+ "web_dataset": "mf",
+ "tests_beyond_noise": 0,
+ "detail": {
+  "R1": [],
+  "R2": [],
+  "R3": [],
+  "R4": [],
+  "R5": [],
+  "E1": [],
+  "E2": [],
+  "E3": [],
+  "E4a": [],
+  "E4b": [],
+  "E5": []
+ },
+ "stop_before_cp2": true
+}

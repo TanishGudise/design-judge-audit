@@ -1,0 +1,134 @@
+{
+ "gde/haiku/J2": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_units": 8,
+    "aa_band_95": null,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0,
+    "p_loser_wins_edit": 0.0
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_units": 8,
+    "aa_band_95": null,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0,
+    "p_loser_wins_edit": 0.0
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_units": 8,
+    "aa_band_95": null,
+    "beyond_noise": false,
+    "beyond_noise_positive": false,
+    "p_loser_wins_control": 0.0,
+    "p_loser_wins_edit": 0.0
+   }
+  }
+ },
+ "gde/-/J0": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.25,
+    "ci": [
+     0.0,
+     0.5714
+    ],
+    "n_units": 8,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_units": 8,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.75,
+    "ci": [
+     0.4286,
+     1.0
+    ],
+    "n_units": 8,
+    "aa_band_95": 0.0,
+    "beyond_noise": true,
+    "beyond_noise_positive": true
+   }
+  }
+ },
+ "gde/-/J4": {
+  "tests": {
+   "E1": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_units": 8,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E4a": {
+    "control": "C1",
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_units": 8,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   },
+   "E2": {
+    "control": "C2",
+    "effect": 0.125,
+    "ci": [
+     0.0,
+     0.4286
+    ],
+    "n_units": 8,
+    "aa_band_95": 0.0,
+    "beyond_noise": false,
+    "beyond_noise_positive": false
+   }
+  }
+ },
+ "mf/-/J0": {
+  "tests": {}
+ },
+ "mf/-/J4": {
+  "tests": {}
+ }
+}

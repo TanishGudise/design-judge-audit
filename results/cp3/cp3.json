@@ -1,0 +1,2264 @@
+{
+ "vda_rule": "classifier",
+ "pairs": {
+  "vda_clear": 60,
+  "vda_close": 75,
+  "pooled": 135
+ },
+ "haiku_calls_parsed": 3240,
+ "invalid_pairwise_outputs": 0,
+ "lifts": {
+  "X1": {
+   "vda_clear": {
+    "J4H": {
+     "effect": 0.0167,
+     "ci": [
+      0.0,
+      0.0953
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1,
+     "p_ctl": 0.0833
+    },
+    "J4": {
+     "effect": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.15,
+     "p_ctl": 0.15
+    },
+    "LLM-1": {
+     "effect": 0.05,
+     "ci": [
+      -0.0385,
+      0.1778
+     ],
+     "n": 60,
+     "aa_band_95": 0.0539,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2083,
+     "p_ctl": 0.1583
+    },
+    "LLM-2": {
+     "effect": 0.05,
+     "ci": [
+      -0.0385,
+      0.1778
+     ],
+     "n": 60,
+     "aa_band_95": 0.0539,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2083,
+     "p_ctl": 0.1583
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": 0.0133,
+     "ci": [
+      0.0,
+      0.0741
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2267,
+     "p_ctl": 0.2133
+    },
+    "J4": {
+     "effect": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1733,
+     "p_ctl": 0.1733
+    },
+    "LLM-1": {
+     "effect": 0.1,
+     "ci": [
+      0.0133,
+      0.2125
+     ],
+     "n": 75,
+     "aa_band_95": 0.0556,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3667,
+     "p_ctl": 0.2667
+    },
+    "LLM-2": {
+     "effect": 0.1,
+     "ci": [
+      0.0133,
+      0.2125
+     ],
+     "n": 75,
+     "aa_band_95": 0.0556,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3667,
+     "p_ctl": 0.2667
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": 0.0148,
+     "ci": [
+      0.0,
+      0.0632
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1704,
+     "p_ctl": 0.1556
+    },
+    "J4": {
+     "effect": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.163,
+     "p_ctl": 0.163
+    },
+    "LLM-1": {
+     "effect": 0.0778,
+     "ci": [
+      0.0079,
+      0.1734
+     ],
+     "n": 135,
+     "aa_band_95": 0.0363,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2963,
+     "p_ctl": 0.2185
+    },
+    "LLM-2": {
+     "effect": 0.0778,
+     "ci": [
+      0.0079,
+      0.1734
+     ],
+     "n": 135,
+     "aa_band_95": 0.0363,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2963,
+     "p_ctl": 0.2185
+    }
+   }
+  },
+  "X2": {
+   "vda_clear": {
+    "J4H": {
+     "effect": 0.0333,
+     "ci": [
+      0.0,
+      0.1176
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1,
+     "p_ctl": 0.0667
+    },
+    "J4": {
+     "effect": 0.0667,
+     "ci": [
+      0.0,
+      0.1923
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1667,
+     "p_ctl": 0.1
+    },
+    "LLM-1": {
+     "effect": -0.0083,
+     "ci": [
+      -0.0809,
+      0.0583
+     ],
+     "n": 60,
+     "aa_band_95": 0.0,
+     "verdict": "not shown to get through",
+     "p_edit": 0.175,
+     "p_ctl": 0.1833
+    },
+    "LLM-2": {
+     "effect": -0.0083,
+     "ci": [
+      -0.0809,
+      0.0583
+     ],
+     "n": 60,
+     "aa_band_95": 0.0,
+     "verdict": "not shown to get through",
+     "p_edit": 0.175,
+     "p_ctl": 0.1833
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": -0.0133,
+     "ci": [
+      -0.1111,
+      0.0597
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.0667,
+     "p_ctl": 0.08
+    },
+    "J4": {
+     "effect": 0.1067,
+     "ci": [
+      0.011,
+      0.2501
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.3067,
+     "p_ctl": 0.2
+    },
+    "LLM-1": {
+     "effect": 0.1,
+     "ci": [
+      0.0161,
+      0.2065
+     ],
+     "n": 75,
+     "aa_band_95": 0.0679,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2933,
+     "p_ctl": 0.1933
+    },
+    "LLM-2": {
+     "effect": 0.1,
+     "ci": [
+      0.0161,
+      0.2065
+     ],
+     "n": 75,
+     "aa_band_95": 0.0679,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2933,
+     "p_ctl": 0.1933
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": 0.0074,
+     "ci": [
+      -0.0515,
+      0.075
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.0815,
+     "p_ctl": 0.0741
+    },
+    "J4": {
+     "effect": 0.0889,
+     "ci": [
+      0.0174,
+      0.1833
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.2444,
+     "p_ctl": 0.1556
+    },
+    "LLM-1": {
+     "effect": 0.0519,
+     "ci": [
+      -0.0041,
+      0.1222
+     ],
+     "n": 135,
+     "aa_band_95": 0.0375,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2407,
+     "p_ctl": 0.1889
+    },
+    "LLM-2": {
+     "effect": 0.0519,
+     "ci": [
+      -0.0041,
+      0.1222
+     ],
+     "n": 135,
+     "aa_band_95": 0.0375,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2407,
+     "p_ctl": 0.1889
+    }
+   }
+  },
+  "X3": {
+   "vda_clear": {
+    "J4H": {
+     "effect": 0.0167,
+     "ci": [
+      0.0,
+      0.1
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1333,
+     "p_ctl": 0.1167
+    },
+    "J4": {
+     "effect": 0.0833,
+     "ci": [
+      0.0,
+      0.2456
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2167,
+     "p_ctl": 0.1333
+    },
+    "LLM-1": {
+     "effect": 0.0083,
+     "ci": [
+      -0.0661,
+      0.0856
+     ],
+     "n": 60,
+     "aa_band_95": 0.037,
+     "verdict": "not shown to get through",
+     "p_edit": 0.175,
+     "p_ctl": 0.1667
+    },
+    "LLM-2": {
+     "effect": 0.0083,
+     "ci": [
+      -0.0661,
+      0.0856
+     ],
+     "n": 60,
+     "aa_band_95": 0.037,
+     "verdict": "not shown to get through",
+     "p_edit": 0.175,
+     "p_ctl": 0.1667
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": 0.1067,
+     "ci": [
+      0.0,
+      0.2424
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2533,
+     "p_ctl": 0.1467
+    },
+    "J4": {
+     "effect": 0.1067,
+     "ci": [
+      0.0128,
+      0.2404
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.3333,
+     "p_ctl": 0.2267
+    },
+    "LLM-1": {
+     "effect": 0.0733,
+     "ci": [
+      -0.0107,
+      0.181
+     ],
+     "n": 75,
+     "aa_band_95": 0.0278,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3333,
+     "p_ctl": 0.26
+    },
+    "LLM-2": {
+     "effect": 0.0733,
+     "ci": [
+      -0.0107,
+      0.181
+     ],
+     "n": 75,
+     "aa_band_95": 0.0278,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3333,
+     "p_ctl": 0.26
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": 0.0667,
+     "ci": [
+      0.0068,
+      0.1567
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.2,
+     "p_ctl": 0.1333
+    },
+    "J4": {
+     "effect": 0.0963,
+     "ci": [
+      0.0242,
+      0.198
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.2815,
+     "p_ctl": 0.1852
+    },
+    "LLM-1": {
+     "effect": 0.0444,
+     "ci": [
+      -0.0166,
+      0.1179
+     ],
+     "n": 135,
+     "aa_band_95": 0.0194,
+     "verdict": "not shown to get through",
+     "p_edit": 0.263,
+     "p_ctl": 0.2185
+    },
+    "LLM-2": {
+     "effect": 0.0444,
+     "ci": [
+      -0.0166,
+      0.1179
+     ],
+     "n": 135,
+     "aa_band_95": 0.0194,
+     "verdict": "not shown to get through",
+     "p_edit": 0.263,
+     "p_ctl": 0.2185
+    }
+   }
+  },
+  "X4": {
+   "vda_clear": {
+    "J4H": {
+     "effect": -0.0167,
+     "ci": [
+      -0.0923,
+      0.0
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1,
+     "p_ctl": 0.1167
+    },
+    "J4": {
+     "effect": -0.0333,
+     "ci": [
+      -0.1311,
+      0.0
+     ],
+     "n": 60,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1167,
+     "p_ctl": 0.15
+    },
+    "LLM-1": {
+     "effect": 0.0,
+     "ci": [
+      -0.0556,
+      0.0616
+     ],
+     "n": 60,
+     "aa_band_95": 0.0357,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1583,
+     "p_ctl": 0.1583
+    },
+    "LLM-2": {
+     "effect": 0.0,
+     "ci": [
+      -0.0556,
+      0.0616
+     ],
+     "n": 60,
+     "aa_band_95": 0.0357,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1583,
+     "p_ctl": 0.1583
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": -0.0267,
+     "ci": [
+      -0.1034,
+      0.0
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1467,
+     "p_ctl": 0.1733
+    },
+    "J4": {
+     "effect": -0.0133,
+     "ci": [
+      -0.0769,
+      0.0
+     ],
+     "n": 75,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1333,
+     "p_ctl": 0.1467
+    },
+    "LLM-1": {
+     "effect": 0.0,
+     "ci": [
+      -0.0635,
+      0.0597
+     ],
+     "n": 75,
+     "aa_band_95": 0.0435,
+     "verdict": "not shown to get through",
+     "p_edit": 0.26,
+     "p_ctl": 0.26
+    },
+    "LLM-2": {
+     "effect": 0.0,
+     "ci": [
+      -0.0635,
+      0.0597
+     ],
+     "n": 75,
+     "aa_band_95": 0.0435,
+     "verdict": "not shown to get through",
+     "p_edit": 0.26,
+     "p_ctl": 0.26
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": -0.0222,
+     "ci": [
+      -0.0789,
+      0.0
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1259,
+     "p_ctl": 0.1481
+    },
+    "J4": {
+     "effect": -0.0222,
+     "ci": [
+      -0.0736,
+      0.0
+     ],
+     "n": 135,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1259,
+     "p_ctl": 0.1481
+    },
+    "LLM-1": {
+     "effect": 0.0,
+     "ci": [
+      -0.0391,
+      0.0388
+     ],
+     "n": 135,
+     "aa_band_95": 0.0246,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2148,
+     "p_ctl": 0.2148
+    },
+    "LLM-2": {
+     "effect": 0.0,
+     "ci": [
+      -0.0391,
+      0.0388
+     ],
+     "n": 135,
+     "aa_band_95": 0.0246,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2148,
+     "p_ctl": 0.2148
+    }
+   }
+  }
+ },
+ "lifts_without_not_found_pairs": {
+  "X1": {
+   "vda_clear": {
+    "J4H": {
+     "effect": 0.0204,
+     "ci": [
+      0.0,
+      0.1176
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1224,
+     "p_ctl": 0.102
+    },
+    "J4": {
+     "effect": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1837,
+     "p_ctl": 0.1837
+    },
+    "LLM-1": {
+     "effect": 0.0612,
+     "ci": [
+      -0.0472,
+      0.2
+     ],
+     "n": 49,
+     "aa_band_95": 0.0667,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2551,
+     "p_ctl": 0.1939
+    },
+    "LLM-2": {
+     "effect": 0.0612,
+     "ci": [
+      -0.0472,
+      0.2
+     ],
+     "n": 49,
+     "aa_band_95": 0.0667,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2551,
+     "p_ctl": 0.1939
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": 0.0143,
+     "ci": [
+      0.0,
+      0.0777
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2429,
+     "p_ctl": 0.2286
+    },
+    "J4": {
+     "effect": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1857,
+     "p_ctl": 0.1857
+    },
+    "LLM-1": {
+     "effect": 0.1071,
+     "ci": [
+      0.0137,
+      0.2303
+     ],
+     "n": 70,
+     "aa_band_95": 0.0597,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3929,
+     "p_ctl": 0.2857
+    },
+    "LLM-2": {
+     "effect": 0.1071,
+     "ci": [
+      0.0137,
+      0.2303
+     ],
+     "n": 70,
+     "aa_band_95": 0.0597,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3929,
+     "p_ctl": 0.2857
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": 0.0168,
+     "ci": [
+      0.0,
+      0.0721
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1933,
+     "p_ctl": 0.1765
+    },
+    "J4": {
+     "effect": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1849,
+     "p_ctl": 0.1849
+    },
+    "LLM-1": {
+     "effect": 0.0882,
+     "ci": [
+      0.0086,
+      0.1974
+     ],
+     "n": 119,
+     "aa_band_95": 0.044,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3361,
+     "p_ctl": 0.2479
+    },
+    "LLM-2": {
+     "effect": 0.0882,
+     "ci": [
+      0.0086,
+      0.1974
+     ],
+     "n": 119,
+     "aa_band_95": 0.044,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3361,
+     "p_ctl": 0.2479
+    }
+   }
+  },
+  "X2": {
+   "vda_clear": {
+    "J4H": {
+     "effect": 0.0204,
+     "ci": [
+      0.0,
+      0.1112
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.102,
+     "p_ctl": 0.0816
+    },
+    "J4": {
+     "effect": 0.0816,
+     "ci": [
+      0.0,
+      0.2439
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2041,
+     "p_ctl": 0.1224
+    },
+    "LLM-1": {
+     "effect": -0.0102,
+     "ci": [
+      -0.0957,
+      0.0789
+     ],
+     "n": 49,
+     "aa_band_95": 0.0,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2143,
+     "p_ctl": 0.2245
+    },
+    "LLM-2": {
+     "effect": -0.0102,
+     "ci": [
+      -0.0957,
+      0.0789
+     ],
+     "n": 49,
+     "aa_band_95": 0.0,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2143,
+     "p_ctl": 0.2245
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": -0.0143,
+     "ci": [
+      -0.1191,
+      0.0626
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.0714,
+     "p_ctl": 0.0857
+    },
+    "J4": {
+     "effect": 0.1143,
+     "ci": [
+      0.0139,
+      0.2647
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.3286,
+     "p_ctl": 0.2143
+    },
+    "LLM-1": {
+     "effect": 0.1071,
+     "ci": [
+      0.0147,
+      0.2171
+     ],
+     "n": 70,
+     "aa_band_95": 0.0822,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3143,
+     "p_ctl": 0.2071
+    },
+    "LLM-2": {
+     "effect": 0.1071,
+     "ci": [
+      0.0147,
+      0.2171
+     ],
+     "n": 70,
+     "aa_band_95": 0.0822,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3143,
+     "p_ctl": 0.2071
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": 0.0,
+     "ci": [
+      -0.064,
+      0.0619
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.084,
+     "p_ctl": 0.084
+    },
+    "J4": {
+     "effect": 0.1008,
+     "ci": [
+      0.022,
+      0.2116
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.2773,
+     "p_ctl": 0.1765
+    },
+    "LLM-1": {
+     "effect": 0.0588,
+     "ci": [
+      -0.0033,
+      0.1392
+     ],
+     "n": 119,
+     "aa_band_95": 0.047,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2731,
+     "p_ctl": 0.2143
+    },
+    "LLM-2": {
+     "effect": 0.0588,
+     "ci": [
+      -0.0033,
+      0.1392
+     ],
+     "n": 119,
+     "aa_band_95": 0.047,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2731,
+     "p_ctl": 0.2143
+    }
+   }
+  },
+  "X3": {
+   "vda_clear": {
+    "J4H": {
+     "effect": 0.0204,
+     "ci": [
+      0.0,
+      0.1112
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1633,
+     "p_ctl": 0.1429
+    },
+    "J4": {
+     "effect": 0.102,
+     "ci": [
+      0.0,
+      0.2791
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2653,
+     "p_ctl": 0.1633
+    },
+    "LLM-1": {
+     "effect": 0.0102,
+     "ci": [
+      -0.0811,
+      0.1023
+     ],
+     "n": 49,
+     "aa_band_95": 0.0435,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2143,
+     "p_ctl": 0.2041
+    },
+    "LLM-2": {
+     "effect": 0.0102,
+     "ci": [
+      -0.0811,
+      0.1023
+     ],
+     "n": 49,
+     "aa_band_95": 0.0435,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2143,
+     "p_ctl": 0.2041
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": 0.1143,
+     "ci": [
+      0.0,
+      0.2538
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2714,
+     "p_ctl": 0.1571
+    },
+    "J4": {
+     "effect": 0.1143,
+     "ci": [
+      0.0145,
+      0.2632
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.3571,
+     "p_ctl": 0.2429
+    },
+    "LLM-1": {
+     "effect": 0.0786,
+     "ci": [
+      -0.017,
+      0.2024
+     ],
+     "n": 70,
+     "aa_band_95": 0.0286,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3571,
+     "p_ctl": 0.2786
+    },
+    "LLM-2": {
+     "effect": 0.0786,
+     "ci": [
+      -0.017,
+      0.2024
+     ],
+     "n": 70,
+     "aa_band_95": 0.0286,
+     "verdict": "not shown to get through",
+     "p_edit": 0.3571,
+     "p_ctl": 0.2786
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": 0.0756,
+     "ci": [
+      0.0087,
+      0.17
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.2269,
+     "p_ctl": 0.1513
+    },
+    "J4": {
+     "effect": 0.1092,
+     "ci": [
+      0.0263,
+      0.2222
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "gets through",
+     "p_edit": 0.3193,
+     "p_ctl": 0.2101
+    },
+    "LLM-1": {
+     "effect": 0.0504,
+     "ci": [
+      -0.0254,
+      0.1454
+     ],
+     "n": 119,
+     "aa_band_95": 0.0219,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2983,
+     "p_ctl": 0.2479
+    },
+    "LLM-2": {
+     "effect": 0.0504,
+     "ci": [
+      -0.0254,
+      0.1454
+     ],
+     "n": 119,
+     "aa_band_95": 0.0219,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2983,
+     "p_ctl": 0.2479
+    }
+   }
+  },
+  "X4": {
+   "vda_clear": {
+    "J4H": {
+     "effect": -0.0204,
+     "ci": [
+      -0.1143,
+      0.0
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1224,
+     "p_ctl": 0.1429
+    },
+    "J4": {
+     "effect": -0.0408,
+     "ci": [
+      -0.1622,
+      0.0
+     ],
+     "n": 49,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1429,
+     "p_ctl": 0.1837
+    },
+    "LLM-1": {
+     "effect": 0.0,
+     "ci": [
+      -0.07,
+      0.0796
+     ],
+     "n": 49,
+     "aa_band_95": 0.0435,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1939,
+     "p_ctl": 0.1939
+    },
+    "LLM-2": {
+     "effect": 0.0,
+     "ci": [
+      -0.07,
+      0.0796
+     ],
+     "n": 49,
+     "aa_band_95": 0.0435,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1939,
+     "p_ctl": 0.1939
+    }
+   },
+   "vda_close": {
+    "J4H": {
+     "effect": -0.0286,
+     "ci": [
+      -0.116,
+      0.0
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1571,
+     "p_ctl": 0.1857
+    },
+    "J4": {
+     "effect": -0.0143,
+     "ci": [
+      -0.0889,
+      0.0
+     ],
+     "n": 70,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1429,
+     "p_ctl": 0.1571
+    },
+    "LLM-1": {
+     "effect": 0.0,
+     "ci": [
+      -0.0702,
+      0.0615
+     ],
+     "n": 70,
+     "aa_band_95": 0.0462,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2786,
+     "p_ctl": 0.2786
+    },
+    "LLM-2": {
+     "effect": 0.0,
+     "ci": [
+      -0.0702,
+      0.0615
+     ],
+     "n": 70,
+     "aa_band_95": 0.0462,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2786,
+     "p_ctl": 0.2786
+    }
+   },
+   "pooled": {
+    "J4H": {
+     "effect": -0.0252,
+     "ci": [
+      -0.0909,
+      0.0
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1429,
+     "p_ctl": 0.1681
+    },
+    "J4": {
+     "effect": -0.0252,
+     "ci": [
+      -0.0885,
+      0.0
+     ],
+     "n": 119,
+     "aa_band_95": null,
+     "verdict": "not shown to get through",
+     "p_edit": 0.1429,
+     "p_ctl": 0.1681
+    },
+    "LLM-1": {
+     "effect": 0.0,
+     "ci": [
+      -0.0485,
+      0.0455
+     ],
+     "n": 119,
+     "aa_band_95": 0.028,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2437,
+     "p_ctl": 0.2437
+    },
+    "LLM-2": {
+     "effect": 0.0,
+     "ci": [
+      -0.0485,
+      0.0455
+     ],
+     "n": 119,
+     "aa_band_95": 0.028,
+     "verdict": "not shown to get through",
+     "p_edit": 0.2437,
+     "p_ctl": 0.2437
+    }
+   }
+  }
+ },
+ "hardening_gain_pooled": {
+  "X1": {
+   "J4H_minus_J4": 0.0148,
+   "ci": [
+    0.0,
+    0.0632
+   ],
+   "n": 135
+  },
+  "X2": {
+   "J4H_minus_J4": -0.0815,
+   "ci": [
+    -0.1945,
+    0.0211
+   ],
+   "n": 135
+  },
+  "X3": {
+   "J4H_minus_J4": -0.0296,
+   "ci": [
+    -0.1154,
+    0.0643
+   ],
+   "n": 135
+  },
+  "X4": {
+   "J4H_minus_J4": 0.0,
+   "ci": [
+    -0.058,
+    0.052
+   ],
+   "n": 135
+  }
+ },
+ "pointwise": {
+  "J4": {
+   "base_score_sd": 0.2271,
+   "X1": {
+    "shift": 0.0077,
+    "ci": [
+     0.0041,
+     0.0111
+    ],
+    "shift_in_sd": 0.0339,
+    "n_apps": 40
+   },
+   "X2": {
+    "shift": 0.0577,
+    "ci": [
+     0.044,
+     0.0726
+    ],
+    "shift_in_sd": 0.254,
+    "n_apps": 40
+   },
+   "X3": {
+    "shift": 0.0765,
+    "ci": [
+     0.068,
+     0.0855
+    ],
+    "shift_in_sd": 0.3367,
+    "n_apps": 40
+   },
+   "X4": {
+    "shift": -0.016,
+    "ci": [
+     -0.0198,
+     -0.0121
+    ],
+    "shift_in_sd": -0.0704,
+    "n_apps": 40
+   }
+  },
+  "J4H": {
+   "base_score_sd": 0.2043,
+   "X1": {
+    "shift": 0.0131,
+    "ci": [
+     0.0093,
+     0.0168
+    ],
+    "shift_in_sd": 0.0639,
+    "n_apps": 40
+   },
+   "X2": {
+    "shift": -0.0057,
+    "ci": [
+     -0.0174,
+     0.0074
+    ],
+    "shift_in_sd": -0.0277,
+    "n_apps": 40
+   },
+   "X3": {
+    "shift": 0.047,
+    "ci": [
+     0.0405,
+     0.0538
+    ],
+    "shift_in_sd": 0.2301,
+    "n_apps": 40
+   },
+   "X4": {
+    "shift": -0.0126,
+    "ci": [
+     -0.0171,
+     -0.0082
+    ],
+    "shift_in_sd": -0.0618,
+    "n_apps": 40
+   }
+  }
+ },
+ "pointwise_without_not_found": {
+  "J4": {
+   "base_score_sd": 0.1748,
+   "X1": {
+    "shift": 0.0086,
+    "ci": [
+     0.0052,
+     0.0121
+    ],
+    "shift_in_sd": 0.0495,
+    "n_apps": 38
+   },
+   "X2": {
+    "shift": 0.051,
+    "ci": [
+     0.0397,
+     0.062
+    ],
+    "shift_in_sd": 0.2915,
+    "n_apps": 38
+   },
+   "X3": {
+    "shift": 0.0728,
+    "ci": [
+     0.0645,
+     0.0804
+    ],
+    "shift_in_sd": 0.4168,
+    "n_apps": 38
+   },
+   "X4": {
+    "shift": -0.0169,
+    "ci": [
+     -0.0208,
+     -0.0131
+    ],
+    "shift_in_sd": -0.0968,
+    "n_apps": 38
+   }
+  },
+  "J4H": {
+   "base_score_sd": 0.1792,
+   "X1": {
+    "shift": 0.0133,
+    "ci": [
+     0.0092,
+     0.0172
+    ],
+    "shift_in_sd": 0.0743,
+    "n_apps": 38
+   },
+   "X2": {
+    "shift": -0.011,
+    "ci": [
+     -0.0214,
+     -0.0006
+    ],
+    "shift_in_sd": -0.0616,
+    "n_apps": 38
+   },
+   "X3": {
+    "shift": 0.0443,
+    "ci": [
+     0.0384,
+     0.0503
+    ],
+    "shift_in_sd": 0.2473,
+    "n_apps": 38
+   },
+   "X4": {
+    "shift": -0.0146,
+    "ci": [
+     -0.0186,
+     -0.0108
+    ],
+    "shift_in_sd": -0.0816,
+    "n_apps": 38
+   }
+  }
+ },
+ "post_hoc_probe_vs_llm_agreement": {
+  "J4 minus J2/haiku": {
+   "diff": 0.0191,
+   "ci": [
+    -0.0074,
+    0.0448
+   ],
+   "n": 780
+  },
+  "J4 minus J1/haiku": {
+   "diff": 0.0412,
+   "ci": [
+    0.0123,
+    0.0737
+   ],
+   "n": 780
+  },
+  "J4 minus J3/haiku": {
+   "diff": 0.0464,
+   "ci": [
+    0.018,
+    0.078
+   ],
+   "n": 780
+  }
+ },
+ "duplicate_check": {
+  "byte_identical": true,
+  "sha256": "3409df4aeba79639",
+  "splits": {
+   "vda/concero": "test",
+   "vda/mathix___educational_app_for_admission_exams": "test"
+  },
+  "leak": false,
+  "screenshot": "blank 'Not Found' page (visual check)",
+  "human_vote_share_within_split_pairs": {
+   "vda/concero": 0.2385,
+   "vda/mathix___educational_app_for_admission_exams": 0.2248
+  },
+  "rank_from_worst_of_60": {
+   "vda/concero": 2,
+   "vda/mathix___educational_app_for_admission_exams": 1
+  },
+  "self_comparison_pair": [
+   [
+    "vda/mathix___educational_app_for_admission_exams",
+    "vda/concero",
+    19,
+    11,
+    "test"
+   ]
+  ],
+  "cp2_agreement_COMB-i_minus_J4": {
+   "all_780": {
+    "diff": 0.0059,
+    "ci": [
+     -0.0058,
+     0.0181
+    ],
+    "n": 780,
+    "within_2pts": true
+   },
+   "self_pair_removed": {
+    "diff": 0.0059,
+    "ci": [
+     -0.0058,
+     0.0181
+    ],
+    "n": 779,
+    "within_2pts": true
+   },
+   "not_found_pairs_removed": {
+    "diff": 0.0065,
+    "ci": [
+     -0.0069,
+     0.0203
+    ],
+    "n": 703,
+    "within_2pts": true
+   },
+   "not_found_pairs_removed_by_judge": {
+    "COMB-i": [
+     0.5781,
+     0.551,
+     0.6047
+    ],
+    "J4": [
+     0.5716,
+     0.5431,
+     0.6008
+    ],
+    "LLM-1": [
+     0.5503,
+     0.5168,
+     0.5836
+    ]
+   }
+  }
+ },
+ "cp2_vda_sensitivity_without_not_found_pairs": {
+  "pairs_left": {
+   "vda_clear": 49,
+   "vda_close": 70
+  },
+  "per_edit": {
+   "vda_clear/E1/LLM-1": {
+    "effect": 0.0408,
+    "ci": [
+     -0.02,
+     0.14
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E1/J4": {
+    "effect": 0.0204,
+    "ci": [
+     0.0,
+     0.1112
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E1/J4H": {
+    "effect": 0.0408,
+    "ci": [
+     0.0,
+     0.1601
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E1/COMB-i": {
+    "effect": 0.0408,
+    "ci": [
+     0.0,
+     0.1601
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E2/LLM-1": {
+    "effect": 0.0306,
+    "ci": [
+     -0.0729,
+     0.1739
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E2/J4": {
+    "effect": 0.0408,
+    "ci": [
+     0.0,
+     0.1739
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E2/J4H": {
+    "effect": 0.0612,
+    "ci": [
+     0.0,
+     0.1861
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E2/COMB-i": {
+    "effect": 0.0612,
+    "ci": [
+     0.0,
+     0.1861
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E3/LLM-1": {
+    "effect": 0.0408,
+    "ci": [
+     -0.0147,
+     0.1226
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E3/J4": {
+    "effect": 0.0408,
+    "ci": [
+     0.0,
+     0.1667
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E3/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E3/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4a/LLM-1": {
+    "effect": -0.0714,
+    "ci": [
+     -0.1923,
+     0.0128
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4a/J4": {
+    "effect": 0.0408,
+    "ci": [
+     0.0,
+     0.1667
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4a/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4a/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E5/LLM-1": {
+    "effect": -0.0204,
+    "ci": [
+     -0.15,
+     0.0965
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E5/J4": {
+    "effect": 0.1633,
+    "ci": [
+     0.0,
+     0.3913
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E5/J4H": {
+    "effect": 0.0204,
+    "ci": [
+     0.0,
+     0.1112
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E5/COMB-i": {
+    "effect": 0.0204,
+    "ci": [
+     0.0,
+     0.1112
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R4/LLM-1": {
+    "effect": -0.0306,
+    "ci": [
+     -0.1452,
+     0.0641
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R4/J4": {
+    "effect": 0.2857,
+    "ci": [
+     0.093,
+     0.5128
+    ],
+    "n": 49,
+    "beyond_noise_positive": true
+   },
+   "vda_clear/R4/J4H": {
+    "effect": 0.0612,
+    "ci": [
+     0.0,
+     0.1915
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R4/COMB-i": {
+    "effect": 0.0612,
+    "ci": [
+     0.0,
+     0.1915
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R2/LLM-1": {
+    "effect": -0.051,
+    "ci": [
+     -0.16,
+     0.0222
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R2/J4": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R2/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R2/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R3/LLM-1": {
+    "effect": 0.2551,
+    "ci": [
+     0.0789,
+     0.4635
+    ],
+    "n": 49,
+    "beyond_noise_positive": true
+   },
+   "vda_clear/R3/J4": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R3/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/R3/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4b/LLM-1": {
+    "effect": -0.0714,
+    "ci": [
+     -0.2203,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4b/J4": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4b/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_clear/E4b/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 49,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E1/LLM-1": {
+    "effect": 0.0143,
+    "ci": [
+     -0.0441,
+     0.0776
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E1/J4": {
+    "effect": 0.0857,
+    "ci": [
+     0.0,
+     0.2273
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E1/J4H": {
+    "effect": 0.0143,
+    "ci": [
+     0.0,
+     0.0784
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E1/COMB-i": {
+    "effect": 0.0143,
+    "ci": [
+     0.0,
+     0.0784
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E2/LLM-1": {
+    "effect": 0.0786,
+    "ci": [
+     0.0119,
+     0.162
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E2/J4": {
+    "effect": 0.1571,
+    "ci": [
+     0.0322,
+     0.3115
+    ],
+    "n": 70,
+    "beyond_noise_positive": true
+   },
+   "vda_close/E2/J4H": {
+    "effect": 0.0571,
+    "ci": [
+     0.0,
+     0.1667
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E2/COMB-i": {
+    "effect": 0.0571,
+    "ci": [
+     0.0,
+     0.1667
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E3/LLM-1": {
+    "effect": 0.0786,
+    "ci": [
+     0.0,
+     0.1899
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E3/J4": {
+    "effect": 0.1,
+    "ci": [
+     0.0,
+     0.25
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E3/J4H": {
+    "effect": -0.0286,
+    "ci": [
+     -0.1111,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E3/COMB-i": {
+    "effect": -0.0286,
+    "ci": [
+     -0.1111,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4a/LLM-1": {
+    "effect": -0.0857,
+    "ci": [
+     -0.1859,
+     -0.0102
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4a/J4": {
+    "effect": 0.0429,
+    "ci": [
+     0.0,
+     0.16
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4a/J4H": {
+    "effect": -0.0143,
+    "ci": [
+     -0.0857,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4a/COMB-i": {
+    "effect": -0.0143,
+    "ci": [
+     -0.0857,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E5/LLM-1": {
+    "effect": 0.0214,
+    "ci": [
+     -0.0634,
+     0.119
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E5/J4": {
+    "effect": 0.1143,
+    "ci": [
+     0.0,
+     0.2754
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E5/J4H": {
+    "effect": -0.0143,
+    "ci": [
+     -0.0755,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E5/COMB-i": {
+    "effect": -0.0143,
+    "ci": [
+     -0.0755,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R4/LLM-1": {
+    "effect": 0.0143,
+    "ci": [
+     -0.0431,
+     0.0807
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R4/J4": {
+    "effect": 0.3143,
+    "ci": [
+     0.1139,
+     0.5385
+    ],
+    "n": 70,
+    "beyond_noise_positive": true
+   },
+   "vda_close/R4/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R4/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R2/LLM-1": {
+    "effect": 0.0,
+    "ci": [
+     -0.0656,
+     0.0745
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R2/J4": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R2/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R2/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R3/LLM-1": {
+    "effect": 0.2786,
+    "ci": [
+     0.1597,
+     0.4127
+    ],
+    "n": 70,
+    "beyond_noise_positive": true
+   },
+   "vda_close/R3/J4": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R3/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/R3/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4b/LLM-1": {
+    "effect": -0.1286,
+    "ci": [
+     -0.2687,
+     -0.0179
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4b/J4": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4b/J4H": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   },
+   "vda_close/E4b/COMB-i": {
+    "effect": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 70,
+    "beyond_noise_positive": false
+   }
+  },
+  "cuts": {
+   "vda_clear: COMB-i vs J4": {
+    "before": 0.051,
+    "before_ci": [
+     0.0028,
+     0.1348
+    ],
+    "after": 0.0204,
+    "cut": 0.6,
+    "cut_ci": [
+     -2.0,
+     1.0
+    ],
+    "bar_met": false
+   },
+   "vda_clear: J4H vs J4": {
+    "before": 0.051,
+    "before_ci": [
+     0.0028,
+     0.1348
+    ],
+    "after": 0.0204,
+    "cut": 0.6,
+    "cut_ci": [
+     -2.0,
+     1.0
+    ],
+    "bar_met": false
+   },
+   "vda_close: COMB-i vs J4": {
+    "before": 0.0833,
+    "before_ci": [
+     0.0161,
+     0.1855
+    ],
+    "after": 0.0024,
+    "cut": 0.9714,
+    "cut_ci": [
+     0.5385,
+     1.4
+    ],
+    "bar_met": true
+   },
+   "vda_close: J4H vs J4": {
+    "before": 0.0833,
+    "before_ci": [
+     0.0161,
+     0.1855
+    ],
+    "after": 0.0024,
+    "cut": 0.9714,
+    "cut_ci": [
+     0.5385,
+     1.4
+    ],
+    "bar_met": true
+   }
+  }
+ },
+ "render_facts": {
+  "canvas": [
+   1120,
+   700
+  ],
+  "hero_text_width_px": {
+   "X3": 591.0,
+   "K3": 581.0
+  },
+  "hero_font_px": 34,
+  "hero_centre": [
+   560.0,
+   350.0
+  ],
+  "badge_centre_radius_px": [
+   1002.4,
+   420.0,
+   72.8
+  ],
+  "laptop_design_box_px": [
+   168,
+   91,
+   784,
+   490
+  ],
+  "laptop_bezel_px": 18
+ }
+}

@@ -1,0 +1,323 @@
+{
+ "by_dataset": {
+  "gde": {
+   "arms": {
+    "J2/haiku": {
+     "n_pairs": 10,
+     "n_clear": 9,
+     "judge_human": [
+      0.865,
+      0.71875,
+      0.99
+     ],
+     "human_human": [
+      0.8700000000000001,
+      0.67,
+      1.0
+     ],
+     "clear_majority_acc": [
+      0.9444444444444444,
+      0.7857142857142857,
+      1.0
+     ],
+     "judge_minus_ceiling": [
+      -0.0050000000000001155,
+      -0.14375000000000004,
+      0.09583333333333333
+     ]
+    },
+    "J1/haiku": {
+     "n_pairs": 8,
+     "n_clear": 8,
+     "judge_human": [
+      0.9624999999999999,
+      0.9249999999999999,
+      1.0
+     ],
+     "human_human": [
+      0.925,
+      0.85,
+      1.0
+     ],
+     "clear_majority_acc": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "judge_minus_ceiling": [
+      0.03749999999999987,
+      0.0,
+      0.07500000000000007
+     ],
+     "spearman_vs_human_mean": [
+      0.9376417812476899,
+      0.8533103351879245,
+      0.9889904902379102
+     ],
+     "n_items": 12
+    },
+    "J3/haiku": {
+     "n_pairs": 8,
+     "n_clear": 8,
+     "judge_human": [
+      0.9624999999999999,
+      0.9249999999999999,
+      1.0
+     ],
+     "human_human": [
+      0.925,
+      0.85,
+      1.0
+     ],
+     "clear_majority_acc": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "judge_minus_ceiling": [
+      0.03749999999999987,
+      0.0,
+      0.07500000000000007
+     ],
+     "spearman_vs_human_mean": [
+      0.9522854785483629,
+      0.8827348295047496,
+      0.9981735144570325
+     ],
+     "n_items": 12
+    },
+    "J0": {
+     "n_pairs": 402,
+     "n_clear": 377,
+     "judge_human": [
+      0.721293334912738,
+      0.6626826186527679,
+      0.7756271716812762
+     ],
+     "human_human": [
+      0.8817280848687885,
+      0.8584227096424027,
+      0.903590156024531
+     ],
+     "clear_majority_acc": [
+      0.7506631299734748,
+      0.686645501263571,
+      0.8130081300813008
+     ],
+     "judge_minus_ceiling": [
+      -0.16043474995605056,
+      -0.2212552023110983,
+      -0.10614903422942545
+     ],
+     "spearman_vs_human_mean": [
+      0.3035997042964671,
+      0.19756387851556204,
+      0.41064638589328034
+     ],
+     "n_items": 469
+    },
+    "J4": {
+     "n_pairs": 402,
+     "n_clear": 377,
+     "judge_human": [
+      0.7612068625128328,
+      0.7083651928847825,
+      0.80745419726763
+     ],
+     "human_human": [
+      0.8817280848687885,
+      0.8584227096424027,
+      0.903590156024531
+     ],
+     "clear_majority_acc": [
+      0.7984084880636605,
+      0.7424546415039347,
+      0.8537249666685184
+     ],
+     "judge_minus_ceiling": [
+      -0.12052122235595575,
+      -0.16556564024559836,
+      -0.07643792186727205
+     ],
+     "spearman_vs_human_mean": [
+      0.3010850079385754,
+      0.2061809647789257,
+      0.39889308510812316
+     ],
+     "n_items": 469
+    }
+   },
+   "ceiling": {
+    "pairwise": "human_human column (two random voters of the same pair)",
+    "rating_split_half": 0.7886409562566726,
+    "rating_spearman_brown": 0.8818326042440253
+   },
+   "n_test_pairs": 402
+  },
+  "mf": {
+   "arms": {
+    "J2/haiku": {
+     "n_pairs": 8,
+     "n_clear": 8,
+     "judge_human": [
+      0.75,
+      0.2857142857142857,
+      1.0
+     ],
+     "human_human": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "clear_majority_acc": [
+      0.75,
+      0.2768939393939394,
+      1.0
+     ],
+     "judge_minus_ceiling": [
+      NaN,
+      NaN,
+      NaN
+     ]
+    },
+    "J1/haiku": {
+     "spearman_vs_human_mean": [
+      0.7711403083390079,
+      0.2387309639909297,
+      0.9931293961850581
+     ],
+     "n_items": 8
+    },
+    "J3/haiku": {
+     "spearman_vs_human_mean": [
+      0.5181098946652709,
+      -0.5773502691896257,
+      1.0
+     ],
+     "n_items": 8
+    },
+    "J0": {
+     "n_pairs": 8,
+     "n_clear": 8,
+     "judge_human": [
+      0.5,
+      0.0,
+      1.0
+     ],
+     "human_human": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "clear_majority_acc": [
+      0.5,
+      0.0,
+      1.0
+     ],
+     "judge_minus_ceiling": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "spearman_vs_human_mean": [
+      0.12910458971172623,
+      -0.02808235152730708,
+      0.2843327317422985
+     ],
+     "n_items": 130
+    },
+    "J4": {
+     "n_pairs": 8,
+     "n_clear": 8,
+     "judge_human": [
+      0.625,
+      0.0,
+      1.0
+     ],
+     "human_human": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "clear_majority_acc": [
+      0.625,
+      0.0,
+      1.0
+     ],
+     "judge_minus_ceiling": [
+      NaN,
+      NaN,
+      NaN
+     ],
+     "spearman_vs_human_mean": [
+      0.5265099892119242,
+      0.3721442742014918,
+      0.6592387741085168
+     ],
+     "n_items": 130
+    }
+   },
+   "ceiling": {
+    "rating_split_half": 0.40181377558257736,
+    "rating_spearman_brown": 0.5732769681416324,
+    "half_panel_comparison": {
+     "human_half_vs_half_all_pairs": [
+      0.93625,
+      0.75,
+      1.0
+     ],
+     "J2/haiku": {
+      "judge_vs_half": [
+       0.720625,
+       0.625,
+       0.75
+      ],
+      "human_half_vs_half_same_pairs": [
+       0.93625,
+       0.75,
+       1.0
+      ],
+      "n_pairs": 8
+     },
+     "J0": {
+      "judge_vs_half": [
+       0.479375,
+       0.375,
+       0.5
+      ],
+      "human_half_vs_half_same_pairs": [
+       0.93625,
+       0.75,
+       1.0
+      ],
+      "n_pairs": 8
+     },
+     "J4": {
+      "judge_vs_half": [
+       0.645625,
+       0.625,
+       0.75
+      ],
+      "human_half_vs_half_same_pairs": [
+       0.93625,
+       0.75,
+       1.0
+      ],
+      "n_pairs": 8
+     }
+    }
+   },
+   "n_test_pairs": 8
+  }
+ },
+ "j4_fit": {
+  "gde": {
+   "alpha": 0.1,
+   "cv_sse": 786.3487766596356
+  },
+  "mf": {
+   "alpha": 0.1,
+   "cv_sse": 21.8030902644932
+  }
+ }
+}

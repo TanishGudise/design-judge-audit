@@ -1,0 +1,26 @@
+[project]
+name = "design-judge-audit"
+version = "0.1.0"
+description = "How LLM judges of design quality get fooled, and how to make them hold up"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+  "anthropic>=1.0",
+  "pillow",
+  "numpy",
+  "pandas",
+  "pyarrow",
+  "scipy",
+  "scikit-learn",
+  "torch",
+  "transformers",
+  "huggingface_hub",
+  "pytest",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["dja*"]

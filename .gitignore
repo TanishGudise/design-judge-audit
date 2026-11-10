@@ -1,0 +1,15 @@
+.env
+.env.*
+.venv/
+__pycache__/
+data/raw/
+runs/*/raw/
+.DS_Store
+data/
+*.egg-info/
+runs/ledger.lock
+runs/batch_tmp/
+runs/*.log
+runs/*.pid
+runs/run.lock
+runs/logs/

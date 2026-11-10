@@ -1,0 +1,40 @@
+{
+ "gde/haiku": {
+  "p_first": {
+   "value": 0.55,
+   "ci": [
+    0.5,
+    0.6875
+   ],
+   "n_pairs": 10
+  },
+  "first_slot_bias_beyond_noise": false,
+  "order_inconsistency": {
+   "value": 0.1,
+   "ci": [
+    0.0,
+    0.375
+   ],
+   "n": 10
+  }
+ },
+ "mf/haiku": {
+  "p_first": {
+   "value": 0.375,
+   "ci": [
+    0.0833,
+    0.5
+   ],
+   "n_pairs": 8
+  },
+  "first_slot_bias_beyond_noise": false,
+  "order_inconsistency": {
+   "value": 0.25,
+   "ci": [
+    0.0,
+    0.8333
+   ],
+   "n": 8
+  }
+ }
+}

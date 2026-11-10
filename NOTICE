@@ -1,0 +1,18 @@
+The code in this repository is MIT-licensed (see LICENSE). Third-party data and models used by this project keep
+their own licenses; none of their images, raw files or weights are redistributed in this repository:
+
+- UIClip model weights: biglab/uiclip_jitteredwebsites-2-224-paraphrased_webpairs_humanpairs
+  (revision 505d4731b09263c07437a9022d23c800274da56b), MIT License. Wu et al., "UIClip: A Data-driven
+  Model for Assessing User Interface Design", UIST 2024 (arXiv:2404.12500).
+- CLIP preprocessing/tokenizer files: openai/clip-vit-base-patch32 (revision
+  3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268), MIT License (OpenAI CLIP).
+- GDE graphic-design evaluation data: CyberAgentAILab/Graphic-design-evaluation (commit 8666cb6),
+  Apache License 2.0. Haraguchi et al., "Can GPTs Evaluate Graphic Design Based on Design Principles?",
+  SIGGRAPH Asia 2024 Technical Communications.
+- Web Design Prototypicality dataset, commercial banks (Harvard Dataverse doi:10.7910/DVN/Z7KLIH, v4),
+  CC0 1.0. Miniukovich & Figl, Data in Brief.
+- Vibe Design Arena (datapointai/vibe-design-arena on Hugging Face, revision ee85ae4), CC BY 4.0, gated (each
+  user accepts the gate on their own account). Creator/location/revenue columns are dropped at load. Derived data in
+  this repository (UIClip embeddings of the screenshots, item IDs, vote-based numbers) is shared under the same
+  attribution.
+- data_ids/mf_banks/ lists the 200 sampled stimulus IDs with their Dataverse file IDs and md5 sums (CC0 source).

@@ -1,0 +1,76 @@
+{
+ "gde/haiku": {
+  "p_first": {
+   "value": 0.5734,
+   "ci": [
+    0.551,
+    0.5958
+   ],
+   "n_pairs": 402
+  },
+  "first_slot_bias_beyond_noise": true,
+  "order_inconsistency": {
+   "value": 0.1766,
+   "ci": [
+    0.1368,
+    0.2189
+   ],
+   "n": 402
+  }
+ },
+ "vda/haiku": {
+  "p_first": {
+   "value": 0.5282,
+   "ci": [
+    0.4934,
+    0.5668
+   ],
+   "n_pairs": 780
+  },
+  "first_slot_bias_beyond_noise": false,
+  "order_inconsistency": {
+   "value": 0.1308,
+   "ci": [
+    0.0801,
+    0.1942
+   ],
+   "n": 780
+  },
+  "same_order_repeat_flip": {
+   "value": 0.015,
+   "ci": [
+    0.0,
+    0.0561
+   ],
+   "n": 100
+  },
+  "excess_inconsistency_over_noise": {
+   "value": 0.105,
+   "ci": [
+    0.0175,
+    0.2258
+   ],
+   "n": 100,
+   "beyond_noise": true
+  }
+ },
+ "vda/sonnet": {
+  "p_first": {
+   "value": 0.4833,
+   "ci": [
+    0.4322,
+    0.5
+   ],
+   "n_pairs": 60
+  },
+  "first_slot_bias_beyond_noise": false,
+  "order_inconsistency": {
+   "value": 0.0333,
+   "ci": [
+    0.0,
+    0.1356
+   ],
+   "n": 60
+  }
+ }
+}
