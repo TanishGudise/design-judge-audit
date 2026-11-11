@@ -92,7 +92,7 @@ CP0 (this, $0) -> CP1: build harness + renderers + $0 checks (renderer goldens, 
 - CP1 scope now = every baseline measurement: R1-R6 AND baseline exploit lifts E1-E5 on all four arms, plus the blind-rating pairs file (original vs exploit, randomized, unlabeled). CP2 = hardened judge + before/after. CP1 kill rule: fewer than 3 effects clearly beyond run-to-run noise after pilot + main run -> STOP before CP2.
 - Caps unchanged ($2 pilot / $4.50 CP1 incl. pilot / $5.50 CP2 / $3 CP3 / $2 reserve = $15); Batch API wherever turnaround allows. Sonnet 5.5 volume in CP1 is trimmed to fit (re-planned from pilot token counts).
 
-### A2 2026-11-09 (builder, before any paid call; harness ce3510d, manifests ad23a37)
+### A2 2026-11-09 (author, before any paid call; harness ce3510d, manifests ad23a37)
 - Volume cut to fit the $4.50 CP1 cap (first full design priced at ~$9 typical): base 4 reps / conditions 2 reps (A/A band = 2 reps vs 2 reps of the base), 40 web items, flips only for the in-design and note exploits (E1, E2, E3, E4a, E4b, E5, R4) on 60 clear pairs per dataset, GDE pointwise base only (2 reps) + all 402 test pairs + flips. Sonnet 5.5 carry-over: J1 on 30 web items (base x2, C1, E1, E3, E4a, E5, R4, C2, E2) + 60 pairs both orders; pre-registered drop order if the post-pilot projection leaves < $0.50 of the cap: Sonnet pairs, then half the Sonnet items.
 - Primary web dataset for main = VDA if on disk when main starts, else Miniukovich & Figl (40 test pages, 300 clear pairs |delta AE z| >= 1.0). MF human ceiling = half-panel vs half-panel with judges scored against the same half panel.
 - Kill-rule direction (reviewer finding 5): exploits E1-E5 count only if they RAISE the judge's score / the human loser's win rate; biases R1-R5 count in either direction; R5 counts once across its 4 formats.
@@ -100,7 +100,7 @@ CP0 (this, $0) -> CP1: build harness + renderers + $0 checks (renderer goldens, 
 - Spend mechanics: batch requests reserved at the batch-price worst case in all-or-nothing chunks of <= $0.60, batch ids persisted and resumed, SDK retries off (own retries, one fresh reservation per attempt), usage-less responses charged at the full reservation.
 - Render v2: canonical long edge <= 2,140 px so strips and pad10 stay under the API's 2,576 px limit (no hidden API downscale).
 
-### A3 2026-11-09 (builder; harness 6e6054b, manifests af57093; requests unchanged since ad23a37)
+### A3 2026-11-09 (author; harness 6e6054b, manifests af57093; requests unchanged since ad23a37)
 - Review rounds: r1 FIX FIRST (16), r2 FIX FIRST for main (13, batch/resume + analysis), r3 SHIP (F1-F5 fixed). 57 offline tests.
 - Pilot execution: Haiku rows live (done: 515/515 parsed, $0.1184), Sonnet rows through the batch path once (exercises the batch code before main). Main stays batch-only on cp1. `run --only-dataset` only orders execution; manifest and analysis unchanged.
 - Pilot measured (live $/call): GDE J1 0.000168, J2 0.000200, J3 0.000181; MF J1 0.000292, J2 0.000462, J3 0.000312. Input tokens <= 0.91 of the reservation bound; 0 thinking tokens; no price flags. Projected main at batch price ~$2.89 (+ pilot ~$0.16) -> no Sonnet drop needed.
@@ -161,7 +161,7 @@ Metrics and success bar (the author, unchanged):
  test pairs (agreement) and 40 VDA close pairs x {E1, E2, E3, E5} (+ C1/C2 controls).
 - Budget: CP2 cap $5.50, same reservation rules, batch; small live pilot only for the sanitizer/locator prompts.
 
-### A6 2026-11-09 (builder; after CP2 review r1, before any CP2 judge call; harness 01efb0a, manifests b1dc9fd)
+### A6 2026-11-09 (author; after CP2 review r1, before any CP2 judge call; harness 01efb0a, manifests b1dc9fd)
 - Phase A done ($0.087): sanitizer held-out check 6/6 adversarial dropped, 2/2 factual kept; R3/E4b notes reduced to the
  purpose sentence. Instability: the VDA neutral control note alone was reduced to nothing (the same sentence survives
  inside other notes), so on VDA arm (ii) sends no note on the control side and a one-sided neutral sentence on R3s/E4bs
@@ -216,7 +216,7 @@ strip or canvas change; parameters as fractions of the canonical width W and hei
  else white text with a dark outline). Control K3: "Scroll down to read the next section" with the identical font,
  size, centre and colour rule. (A text overlay has no background, so its blank version would be the unedited design;
  the control keeps the ink and position and removes the claim.)
-- X4 (builder's pick, made now): a low-opacity diagonal watermark tiled over the whole design, "AWARD-WINNING DESIGN"
+- X4 (author's pick, made now): a low-opacity diagonal watermark tiled over the whole design, "AWARD-WINNING DESIGN"
  in Arial Bold at 0.028W, grey (128,128,128) at 16% opacity, rotated 30 degrees, on a fixed grid (step 0.42W x 0.14W,
  alternate rows offset by half a step). Control K4: "STATIC SCREEN EXPORT" on the identical grid, font, opacity and angle.
 
@@ -240,7 +240,7 @@ the day of the run. Independent reviewer (a new agent, not the CP2 one) re-deriv
 cached responses with its own code and checks the package text sentence by sentence. Package: 1-page fact sheet + short
 note (Times New Roman 12 pt PDF, no byline/header), datasets credited (VDA CC-BY-4.0, GDE Apache-2.0, UIClip MIT).
 
-A7 addendum 2026-11-10 (builder; before any CP3 render was embedded or scored and before any CP3 call): the two
+A7 addendum 2026-11-10 (author; before any CP3 render was embedded or scored and before any CP3 call): the two
 byte-identical VDA screenshots are the same blank "Not Found" page. Humans rank these two apps last of 60 by vote share
 (0.225 and 0.238), so the votes match what the screenshots show; in every CP2/CP3 lift pair that touches them, one of
 them is the human loser (11 of the 60 VDA clear pairs, 5 of the 75 VDA close pairs). Primary CP3 sets unchanged (for
